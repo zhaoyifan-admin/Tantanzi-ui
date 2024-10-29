@@ -1,5 +1,5 @@
 import './index.scss'
-import {checkIdNo, isFieldEmpty, deleteField} from 'packages/js'
+import {checkIdNo, isFieldEmpty, deleteField} from './js'
 import treeTransfer from "./tree-transfer";
 import {get, post, download, put, deleted, patch} from 'packages/js/axios'
 import {bd09_To_gps84, gcj02_To_Bd09, gcj02_To_Gps84, gps84_To_bd09} from "packages/js/gps";
