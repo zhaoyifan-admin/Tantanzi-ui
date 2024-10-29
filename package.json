@@ -1,6 +1,6 @@
 {
   "name": "@zhaoyifannan/tantanzi-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Encapsulate multiple reusable plugins or methods 封装多个可复用插件或方法",
   "author": "Tantanzi",
