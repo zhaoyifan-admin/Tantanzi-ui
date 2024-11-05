@@ -18,7 +18,7 @@ git add .
 git commit -m 'deploy'
 
 # 部署到 https://<username>.github.io/<repo>
-git push -f git@github.com:zhaoyifan-admin/Tantanzi-ui.git master:pages
+git push origin -f git@github.com:zhaoyifan-admin/Tantanzi-ui.git master:pages
 
 ## 提交所有代码到github
 #cd ../../../

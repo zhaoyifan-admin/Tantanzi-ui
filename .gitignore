@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 dist
-public
 lib
 # src
 babel.config.js
@@ -23,3 +22,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+docs/.vuepress/website.js
+docs/.vuepress/components
+docs/.vuepress/dist
+docs/views
