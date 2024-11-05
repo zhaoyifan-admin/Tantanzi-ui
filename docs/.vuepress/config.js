@@ -1,7 +1,7 @@
 module.exports = ({
     lang: 'zh-CN',
-    title: 'Tantanzi',
-    base: '/Tantanzi-doc/',
+    title: 'Tantanzi-ui',
+    base: '/Tantanzi-ui/',
     description: '前端搬砖神器，让开发更简单✨',
     theme: '@vuepress/theme-default',
     themeConfig: {
