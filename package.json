@@ -5,8 +5,6 @@
   "description": "Encapsulate multiple reusable plugins or methods 封装多个可复用插件或方法",
   "author": "Tantanzi",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -15,25 +13,18 @@
   },
   "main": "lib/tantanzi-ui.umd.min.js",
   "dependencies": {
-    "@rollup/plugin-commonjs": "^28.0.1",
-    "@vuepress/theme-default": "^1.9.10",
-    "@zhaoyifannan/avue": "^1.0.18",
-    "@zhaoyifannan/tantanzi-ui": "^1.0.2",
     "axios": "^1.7.4",
     "core-js": "^2.6.5",
     "dayjs": "^1.11.13",
     "element-ui": "^2.15.14",
     "locale": "^0.1.0",
     "lodash": "^4.17.21",
-    "vue": "^2.6.10",
-    "vuepress-plugin-demo-container": "^0.2.0",
-    "vuepress-plugin-fulltext-search": "^2.2.1"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
-    "@vuepress/plugin-search": "^1.9.10",
     "babel-eslint": "^10.0.1",
     "babel-plugin-component": "^1.1.1",
     "eslint": "^5.16.0",
@@ -42,8 +33,7 @@
     "sass-loader": "^9.0.2",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.7.16",
-    "vuepress": "^1.9.10"
+    "vue-template-compiler": "^2.7.16"
   },
   "eslintConfig": {
     "root": true,
